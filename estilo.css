@@ -2,7 +2,7 @@ body{
   background: rgb(87, 47, 139);
   margin: 0%;
   padding: 0%;
-  
+
 }
 h1 {
   text-align: center;
@@ -23,7 +23,7 @@ h1 {
   color: black;
   left: 55%;
 }
-.menuprincipal { 
+.menuprincipal {
   position: absolute;
   width: 100%;
   height: 30px;
@@ -34,7 +34,7 @@ h1 {
 
 }
 
-nav ul{ 
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -77,8 +77,13 @@ width: 20%;
   border-style: solid;
   padding: 20px;
 }
-
-.conteudo {
+.boxtexto{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 91%;
+  top: 350px
+ .conteudo {
   position: absolute;
   top: 45px;
 }
@@ -87,4 +92,7 @@ width: 20%;
   height: 35%;
   background: rgb(104, 104, 196);
 }
-
+ h1 {
+  text-align: center;
+  font-style: italic;
+}
